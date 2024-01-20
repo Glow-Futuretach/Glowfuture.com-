@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(203, 227, 246);">
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send/?phone=+971547239847&text&type=phone_number&app_absent=0">
+            <img src="img/whatsapp.png" width="50px" alt="" class="whatsapp-float-btn">
+        </a>
+        </div>
+    <style>
+        .whatsapp{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0.85;
+    z-index: 999;
+
+}
+    
+        .sub-menu-1{
+            display: none;
+        }
+       .self-center ul li:hover .sub-menu-1{
+            display: block;
+            position: absolute;
+            background: linear-gradient(to bottom  ,lightpink,lightblue);
+            margin-top: 5px;
+            margin-left: -15px;
+        }
+    </style>
+    <div class="flex justify-center  bg-no-repeat  bg-cover h-full md:bg-center" style="height: 300px;background: url(img/j.webp);background-repeat: no-repeat;background-size: cover;"> <div class="flex flex-col items-center ">
+        <nav class="self-center w-full max-w-7xl ">
+             <div
+                  class="flex md:flex-row flex-col justify-between items-center md:items-start border-b-2 border-blue-900">
+               <h1 class=" py-4 text-2xl font-sans font-bold px-10"><a href="index.html"><img src="img/G.PNG" alt=""></a></h1>
+                  <ul class="flex  items-center text-sm md:text-[18px] font-bold  md:px-10 my-2" style="margin-top:40px ;">
+                   <li class="hover:underline  underline-offset-4 decoration-2 decoration-cyan-500 py-2 rounded-lg px-2 md:px-5">
+                         <a href="index.html">Home</a>
+                      </li>
+                    
+                   <li class="hover:underline underline-offset-4 decoration-2 decoration-cyan-500 py-2 rounded-lg px-2 md:px-5">
+                               <a href="#">Services</a>
+                               <div class="sub-menu-1"> 
+                                <ul id="submenu">
+                                  <li class="hover:underline underline-offset-4 decoration-2 decoration-cyan-500 py-2 rounded-lg px-2 md:px-5">
+                                      <a href="resume_distribution.html">Resume Distribution</a>
+                             </li>
+                             <li class="hover:underline underline-offset-4 decoration-2 decoration-cyan-500 py-2 rounded-lg px-2 md:px-5">
+                              <a href="professional_resume_writing.html">Professional Resume Writing</a>
+                     </li>
+                             <li class="hover:underline underline-offset-4 decoration-2 decoration-cyan-500 py-2 rounded-lg px-2 md:px-5">
+                              <a href="branded_resume_distribution.html">Branded Resume Distribution</a>
+                     </li>
+                                </ul>
+                             </div>
+                      </li>
+                      <li class="hover:underline underline-offset-4 decoration-2 decoration-cyan-500 py-2 rounded-lg px-2 md:px-5">
+                          <a href="about.html">About</a>
+                      </li>
+                      <li class="hover:underline underline-offset-4 decoration-2 decoration-cyan-500 py-2 rounded-lg px-2 md:px-5">
+                        <a href="contact_us.html">Contact</a>
+                      </li>                   
+                 </ul>
+                                            
+             </div>
+          </nav>
+          <div class="flex flex-col justify-center items-center text-center  max-w-7xl   my-8 py-4 px-10">
+         
+              <div class="flex flex-col text-gray-700mt-5">
+                  <h1 class="text-4xl md:text-[50px] font-semibold"></h1>
+              </div>
+              <p class="mt-4 text-sm md:w-[52%] tracking-wide leading-7"></p>
+          </div>
+              </div>     </div>                      
+                 </div>  <script src="https://cdn.tailwindcss.com"></script>
+                 <script src="https://kit.fontawesome.com/290d4f0eb4.js" crossorigin="anonymous"></script>
+
+                 <!-- ################################################################################################## -->
+                 <!-- ################################################################################################## -->
+                 
+                 <div class="grid md:block ">
+                    <div class="bg-gradient-to-r from-cyan-500 to-blue-500 h-72 flex justify-center w-full">
+                        <div class="mt-10 text-white text-4xl font-bold">GET IN TOUCH</div>
+                    </div>
+                    <div class="bg-white h-auto flex justify-center">
+                        <div class="bg-white shadow-lg -mt-40 md:w-1/2 grid lg:flex justify-center">
+                            <div class="w-3/4 lg:w-2/3 ">
+                                <div class="text-lg font-medium text-blue-600 m-6 ">Contact Form</div>
+                                <div class=" flex lg:flex-row flex-col">
+                                    <div class="m-6">
+                                        <p class="text-sm text-stone-400">Full Name</p> <input
+                                            class="border-b-2 border-stone-400 text-stone-400 w-36" />
+                                        <p class="text-sm text-stone-400 mt-6">E-mail</p> <input
+                                            class="border-b-2 border-stone-400 text-stone-400 w-36" />
+                                    </div>
+                                    <div class="m-6 ">
+                                        <p class="text-sm text-stone-400">Phone</p> <input
+                                            class="border-b-2 border-stone-400 text-stone-400 w-36" />
+                                        <!-- <p class="text-sm text-stone-400 mt-6">Subject</p> <input
+                                            class="border-b-2 border-stone-400 text-stone-400 w-36" /> -->
+                                    </div>
+                                </div>
+                                <div class="m-6 ">
+                                    <p class="text-sm text-stone-400 mt-6 ">Message</p>
+                                        <textarea style="background-color: white; border: 2px solid rgb(81, 80, 80);" id="message" name="message" placeholder="Write us a message" class="w-[80%] bg-cyan-400 border-2 border-white h-44 text-sm outline-none placeholder:text-white placeholder:opacity-80 py-1 px-2 mt-6 resize-none leading-6 duration-200 ease-in-out rounded-lg"></textarea>
+                                    <div
+                                        class="m-4 mt-6 pl-4 pt-1 pb-1 pr-4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-3xl text-white font-medium w-36 ">
+                                        Send Message</div>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/3 bg-green-500 ">
+                                <div class="text-white m-6 font-medium"> Contact Information </div>
+                                <div class="text-white m-6 text-sm flex">
+                                    <!-- <ion-icon name="location-sharp" class="m-2"></ion-icon> -->
+                                    <!-- <div> 4329 Travis Street, Red Fort L.A., 34950 </div> -->
+                                </div>
+                                <div class="text-white m-6 text-sm flex">
+                                    <!-- <ion-icon name="call-outline" class="m-2"></ion-icon> -->
+                                    <div> WhatsApp:<br> +971 54 723 9847 <br>
+                                         +971 50 263 5278 </div>
+                                </div>
+                                <div class="text-white m-6 text-sm flex">
+                                    <ion-icon name="mail-outline" class="m-2" style="font-size: 20px;"></ion-icon>
+                                    <div> E-Mail: Info@glowfuture.com </div>
+                                </div>
+                                <div class="text-white m-6 text-sm flex">
+                                    <ion-icon name="globe-outline" class="m-2" style="font-size: 20px;"></ion-icon>
+                                    <div> Website: www.glowfuture.com </div><br><br>
+                              
+                            </div>
+                            <div class="my" style="display: flex; font-size: 30px;color: white;padding: 20px;">
+                               <a href="https://www.linkedin.com/company/glow-future"><i class="fa-brands fa-linkedin" style="margin: 10px;"></i></a>
+                              <a href="https://www.facebook.com/GlowFuture/">  <i class="fa-brands fa-facebook-f" style="margin: 10px;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <script src="https://cdn.tailwindcss.com"></script>
+                    <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+                    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                    <br><br><br>
+                    <!-- ############################################################################## -->
+<!-- ############################################################################## -->
+<div class=" flex items-center justify-around" style="background-color: black;color: white;">
+    <div class=" m-2 items-start relative w-full flex flex-row justify-between mt-8 ml-8 mr-8 max-w-7xl">
+        <div class="relative" style="background-color: black;color: white;">
+            <div class="bg-white p-3 space-y-10 md:grid md:grid-cols-2 md:-mt-6 lg:grid-cols-4" style="background-color: black;color: white;">
+                <div class="w-1/2 md:ml-24 md:mt-9 md:w-3/4">
+                    <h1 class="text-blue-600 text-xl font-medium"><img src="img/foter.PNG" alt=""></h1> <br />
+                    <!-- <p class="text-gray-500 font-medium text-base hover:text-blue-600 "> A123 Lost Street <br /> Chandigarh, PB 535022 <br /> India </p> <br /> -->
+                    <p class="text-gray-500 font-medium text-base hover:text-blue-600 cursor-pointer"> <strong
+                            class="tracking-wide text-blue-600 font-normal">Phone:</strong> +971 50 839 2380 </p>
+                    <p class="text-gray-500 font-medium text-base hover:text-blue-600 cursor-pointer"> <strong
+                            class="tracking-wide text-blue-600 font-normal">Email:</strong> Info@glowfuture.com </p>
+                    <p class="text-gray-500 font-medium text-base hover:text-blue-600 cursor-pointer"> <strong
+                            class="tracking-wide text-blue-600 font-normal">Web:</strong> www.glowfuture.com</p>
+                </div>
+                <div class="leading-9 md:w-2/4 md:order-3 md:ml-24">
+                    <h1 class="text-blue-600 text-xl font-medium tracking-[0.030rem]"> Useful Links </h1>
+                    <ul class="mt-2 text-gray-500 font-medium">
+                        <li> <i class="fa fa-chevron-right text-blue-600"></i> <a href="index.html" class="hover:text-blue-600">
+                                Home</a> </li>
+                        <li> <i class="fa fa-chevron-right text-blue-600"></i> <a href="about.html" class="hover:text-blue-600">
+                                About Us</a> </li>
+                        <li> <i class="fa fa-chevron-right text-blue-600"></i> <a href="faqs.html" class="hover:text-blue-600">
+                                FAQs</a> </li>
+                        <li> <i class="fa fa-chevron-right text-blue-600"></i> <a href="intertips.html" class="hover:text-blue-600">
+                            Interview Tips   </a> </li>
+                        <li> <i class="fa fa-chevron-right text-blue-600"></i> <a href="terms_&_conditions.html" class="hover:text-blue-600">
+                                Terms of service</a> </li>
+                        <li> <i class="fa fa-chevron-right text-blue-600"></i> <a href="Privacy.html" class="hover:text-blue-600">
+                                Privacy policy</a> </li>
+                    </ul>
+                </div>
+                <div class="leading-9 md:w-3/4 md:order-4">
+                    <h1 class="text-blue-600 text-xl font-medium tracking-[0.030rem]"> Our Services </h1>
+                    <ul class="mt-2 text-gray-500 font-medium">
+                        <li> <i class="fa fa-chevron-right text-blue-600"></i> <a href="resume_distribution.html" class="hover:text-blue-600">
+                            Resume Distribution</a> </li>
+                        <li> <i class="fa fa-chevron-right text-blue-600"></i> <a href="professional_resume_writing.html" class="hover:text-blue-600">
+                            Professional Resume Writing
+                        </a> </li>
+                        <li> <i class="fa fa-chevron-right text-blue-600"></i> <a href="branded_resume_distribution.html" class="hover:text-blue-600">
+                            Branded Resume Distribution
+                        </a> </li>
+                        <li> <i class="fa fa-chevron-right text-blue-600"></i> <a href="find_job.html" class="hover:text-blue-600">
+                            HOW CAN I FIND JOB ?
+                        </a> </li>
+                        <li> <i class="fa fa-chevron-right text-blue-600"></i> <a href="contact_us.html" class="hover:text-blue-600">
+                            Contact US
+                        </a> </li>
+                       
+                    </ul>
+                </div>
+                <div class="md:order-2 lg:order-last">
+                    <h1 class="text-blue-600 text-xl font-medium tracking-[0.030rem]"> Glow Future</h1> <br />
+                    <p class="text-gray-500 font-medium w-3/5 leading-7 mb-5 md:w-3/4">World #1 Remotly Rasume Writing & Resume Distribution Company </p> 
+                        <!-- <input type="email"
+                        placeholder="Enter E-mail Here"
+                        class="py-1 px-2 placeholder-gray-400 rounded-tl-xl focus: outline-none focus:bordermd:w-1/2 lg:w-3/5 border" />
+                    <button class="text-white bg-blue-600 p-1 -translate-x-1 rounded-br-xl hover:bg-blue-500"> Subscribe
+                    </button> -->
+                </div>
+            </div>
+            <div
+                class="md:flex hidden bg-gray-900 p-3 flex-col text-center pt-5 space-y-8 md:flex-row md:justify-between md:space-y-0">
+                <div
+                    class="flex mx-3 justify-between space-x-20 md:flex-row text-gray-200 md:space-x-28 md:ml-20 lg:ml-24 lg:space-x-[13rem] xl:space-x-72 xl:ml-24">
+                    <p> Glow Future - Copyright © 2024 by Glow Future All Rights Reserved.</p>
+                    <!-- <p>Designed by <span class="text-blue-600">TailwindCSS</span></p> -->
+                </div>
+                <div
+                    class="text-white pb-4 text-center text-xl space-x-2 md:w-2/4 md:pb-0 md:pl-2 md:space-x-1 lg:pl-[171px] lg:space-x-2 xl:pl-44">
+                    <!-- <a href="#"
+                        class="w-8 h-8 bg-orange-500 hover:text-orange-500 inline-block rounded-full pt-[3px] hover:bg-gray-200"><i
+                            class="fa fa-twitter"></i></a> <a href="#"
+                        class="w-8 h-8 bg-orange-500 hover:text-orange-500 inline-block rounded-full pt-[3px] hover:bg-gray-200"><i
+                            class="fa fa-instagram"></i></a> -->
+                             <a href="https://www.facebook.com/GlowFuture/"
+                        class="w-8 h-8 bg-orange-500 hover:text-orange-500 inline-block rounded-full pt-[3px] hover:bg-gray-200"><i
+                            class="fa fa-facebook"></i></a> 
+                            <!-- <a href="#"
+                        class="w-8 h-8 bg-orange-500 hover:text-orange-500 inline-block rounded-full pt-[3px] hover:bg-gray-200"><i
+                            class="fa fa-google"></i></a> -->
+                             <a href="https://www.linkedin.com/company/glow-future"
+                        class="w-8 h-8 bg-orange-500 hover:text-orange-500 inline-block rounded-full pt-[3px] hover:bg-gray-200"><i
+                            class="fa fa-linkedin"></i></a> </div>
+            </div>
+        </div>
+    </div>
+    </div> 
+<!-- ############################################################################## -->
+
+</body>
+</html>
